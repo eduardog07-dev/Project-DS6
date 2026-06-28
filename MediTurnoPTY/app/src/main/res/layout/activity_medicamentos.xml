@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mis medicamentos"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editNombreMedicamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del medicamento" />
+
+        <EditText
+            android:id="@+id/editDosisMedicamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dosis" />
+
+        <EditText
+            android:id="@+id/editFrecuenciaMedicamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Frecuencia" />
+
+        <EditText
+            android:id="@+id/editHoraMedicamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hora" />
+
+        <EditText
+            android:id="@+id/editObservacionesMedicamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Observaciones" />
+
+        <Button
+            android:id="@+id/btnGuardarMedicamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Guardar medicamento" />
+
+        <Button
+            android:id="@+id/btnLimpiarMedicamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpiar" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Medicamentos registrados"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/contenedorMedicamentos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </LinearLayout>
+</ScrollView>

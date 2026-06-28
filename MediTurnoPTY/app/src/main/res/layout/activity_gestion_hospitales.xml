@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gestion de hospitales"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editNombreHospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del hospital" />
+
+        <EditText
+            android:id="@+id/editTipoHospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipo: publico o privado" />
+
+        <EditText
+            android:id="@+id/editDireccionHospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Direccion" />
+
+        <EditText
+            android:id="@+id/editTelefonoHospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefono"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/editHorarioHospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Horario" />
+
+        <EditText
+            android:id="@+id/editEspecialidadesHospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Especialidades" />
+
+        <EditText
+            android:id="@+id/editDescripcionHospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripcion" />
+
+        <Button
+            android:id="@+id/btnGuardarHospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Guardar hospital" />
+
+        <Button
+            android:id="@+id/btnLimpiarHospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpiar" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Hospitales registrados"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/contenedorHospitalesAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </LinearLayout>
+</ScrollView>
